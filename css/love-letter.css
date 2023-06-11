@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Dancing Script', cursive;
+}
+
+body {
+  background: url('../img/smile-bg.jpg');
+}
+
+.love-letter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 80px;
+  margin: 22px auto;
+  width: 90vw;
+  padding: 80px;
+  background: #fafad2e3;
+}
+
+.text {
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+.letter-happy-icon {
+  display: flex;
+  justify-content: center;
+}
+
+.letter-alien-icons {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.letter-final-icons {
+  margin: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.home-btn a {
+  text-decoration: none;
+  color: crimson;
+  font-weight: 900;
+  font-size: 32px;
+  transition: .4s ease-in;
+  letter-spacing: 1px;
+}
+
+.home-btn a:hover {
+  text-decoration: overline;
+  padding: 10px;
+  border-radius: 20px;
+  background: #dc143c;
+  color: #fafad2f1;
+}
+
+@media (max-width: 580px) {
+  .love-letter {
+    width: 100vw;
+  }
+
+  .text {
+    font-size: 22px;
+  }
+
+  .letter-alien-icons {
+    margin: -30px;
+  }
+
+  .letter-final-icons {
+    margin: -30px;
+  }
+}
